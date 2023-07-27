@@ -21,7 +21,7 @@ export default function Header() {
 
 
   const getContent = async () => {
-    const entry = await Stack.getElement('blt9e99213f1aa354d4', 'header');
+    const entry = await Stack.getElement('blt612141eacf691fb0', 'header');
     console.log('header', entry);
     setEntry(entry);
   }

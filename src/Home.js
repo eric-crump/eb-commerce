@@ -20,7 +20,7 @@ export default function Example() {
     
 
     const getContent = async () => {
-        const entry = await Stack.getElementWithRefs('blt2761c1350bbeab4b', 'homepage', ['modular_blocks.sale_banner.banner', 'modular_blocks.collections.collection.page']);
+        const entry = await Stack.getElementWithRefs('blt5c7f514cec01c168', 'homepage', ['modular_blocks.sale_banner.banner', 'modular_blocks.collections.collection.page']);
         console.log(entry)
         setEntry(entry);
     } 

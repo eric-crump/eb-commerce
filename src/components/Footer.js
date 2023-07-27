@@ -8,7 +8,7 @@ export default function Footer() {
 
 
   const getContent = async () => {
-    const entry = await Stack.getElement('bltd8c2921eb5de9a31', 'footer');
+    const entry = await Stack.getElement('bltf2fe4be62ea6a29c', 'footer');
     setEntry(entry);
   }
 
